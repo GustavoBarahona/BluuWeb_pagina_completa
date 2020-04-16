@@ -1,0 +1,94 @@
+@import 'slider';
+@import 'bienvenidos';
+@import 'submenu';
+@import 'banner-1';
+@import 'servicios';
+@import 'banner-2-img-fixed';
+@import 'redes-sociales';
+@import 'tabla_de_precios';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    height: 3000px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    // background: #000;
+    background: rgba(0,0,0, 0.8);   
+    // position: fixed;
+    z-index: 100;
+}
+
+
+.ancho {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    // background: #000;
+    // background: rgba(0,0,0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // padding: 5px 20px;
+
+    .logo {
+        width: 30%;
+        height: 70px;
+        
+        display: grid;
+        align-items: center;
+
+        p {
+            font-size: 40px;
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    nav {
+        width: 41%;
+        height: 70px;
+        
+        display: grid;
+        align-items: center;
+
+        ul {
+            display: grid;
+            grid-template-columns: repeat(4, 100px);
+            justify-content: space-evenly;
+
+            a {
+                text-transform: uppercase;
+                font-size: 13px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                &:hover{
+                    color: #444;
+                }
+            }
+
+            li {
+                padding: 5px 10px;
+                display: inline-block;
+                
+                // margin-right: 5px;
+                padding: 5px;
+                text-align: center;
+            }
+
+        }
+    }
+
+}

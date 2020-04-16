@@ -1,0 +1,45 @@
+.tabla_precios {
+    height: 500px;
+    width: 100%;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cont-tabla_precios{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 80px) repeat(1, 1fr);
+
+        h1{
+            grid-column: span 4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column: span 4;
+            text-align: center;
+        }
+
+        i{
+            float: left;
+            padding-right: 10px;
+            color: #444;
+        }
+
+        h4{
+            padding-bottom: 10px;
+        }
+    }
+
+
+}

@@ -1,0 +1,38 @@
+
+#particles-js {
+    // background: #444;
+    background-image: url(../img/Mandalorian.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: contain;
+    height: 100vh;    
+}
+
+.ancho-letras{
+    z-index: 50;
+    position: absolute;
+    width: 100%;
+    // background: rgba(0,0,0,0.8);
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    top: 300px;
+    left: auto;
+    right: auto;
+    p{
+        margin-bottom: 20px;
+    }
+
+    .letras-slider{
+        font-size: 20px;
+        margin: auto;
+        width: 70%;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+
+        h1{
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+    }
+}

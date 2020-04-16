@@ -1,0 +1,64 @@
+.redes {
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+
+    a {
+        width: 55px;
+    }
+
+    #facebook a {
+        background: #3b5998;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        transition: all .4s ease;
+
+        &:hover {
+            background: #000;
+            padding: 10px 40px;
+        }
+    }
+
+    #youtube a {
+        background: #bb0000;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        transition: all .4s ease;
+
+        &:hover {
+            background: #000;
+            padding: 10px 40px;
+        }
+    }
+
+    #twitter a {
+        background: #55acee;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        transition: all .4s ease;
+
+        &:hover {
+            background: #000;
+            padding: 10px 40px;
+        }
+    }
+
+    #correo a {
+        background: #e95950;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        transition: all .4s ease;
+
+        &:hover {
+            background: #000;
+            padding: 10px 40px;
+        }
+    }
+
+
+}
