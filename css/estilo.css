@@ -268,7 +268,7 @@ nav ul li:nth-child(1):hover .submenu-inicio {
     .tabla_precios .cont-tabla_precios i {
       float: left;
       padding-right: 10px;
-      color: #444; }
+      color: red; }
     .tabla_precios .cont-tabla_precios h4 {
       padding-bottom: 10px; }
 
