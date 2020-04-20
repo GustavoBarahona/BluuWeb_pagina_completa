@@ -1,5 +1,5 @@
 .tabla_precios {
-    height: 500px;
+    height: 650px;
     width: 100%;
     background: skyblue;
     display: flex;
@@ -8,11 +8,14 @@
     
 
     .cont-tabla_precios{
-        height: 90%;
-        overflow: hidden;
+        height: 80%;
+        //overflow: hidden;
         width: 80%;
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        //grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 130px 1frpx;
+        align-items: center;
+        background: blue;
 
          h1{
              
@@ -32,6 +35,66 @@
 
          .promociones{
             background: red;
+            display: grid;
+            grid-template-columns: repeat(4, 25%);
+            .tabla-1{
+                //width: 25%;
+                text-align: center;
+                background: blueviolet;
+                margin-top: 25px;
+                .caja_precio{
+                    border: 1px solid #5c6552;
+                    background: #30353c;
+                    color: #fff;
+                    .icono_precio{
+                        color: #85c34a;
+                        padding-top: 20px;
+                        font-size: 3em;
+                        padding-bottom: 10px;
+                    }
+                    .precio{
+                        color: #85c34a;
+                        font-size: 50px;
+                        font-weight: bold;
+                        .dolar{
+                            font-size: 20px;
+                            vertical-align: super;
+                        }
+                        .mes{
+                            font-size: 10px;
+                            color: #999;
+                            vertical-align: text-bottom;
+                        }
+                    }
+                    .lista_precios{
+                        list-style: none;
+                        padding: 20px 0;
+                        color: #81867D;
+                        padding-bottom: 50px;
+                    }
+                    .boton-contratar{
+                        margin-bottom: 25px;
+                        .contratar-a{
+                            background: #85c34a;
+                            text-decoration: none;
+                            color: #fff;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            padding: 10px 70px;
+                            letter-spacing: 1px;
+                            width: 90%;
+                            &:hover{
+                                background: #81867D;
+                            }
+                        }
+                    }
+                }
+            }
+            .tabla-2{
+                //width: 25%;
+                //background: blueviolet;
+                margin-top: 25px;
+            }
          }
     }
 

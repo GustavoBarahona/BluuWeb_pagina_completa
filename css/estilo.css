@@ -240,18 +240,19 @@ nav ul li:nth-child(1):hover .submenu-inicio {
       padding: 10px 40px; }
 
 .tabla_precios {
-  height: 500px;
+  height: 650px;
   width: 100%;
   background: skyblue;
   display: flex;
   justify-content: center;
   align-items: center; }
   .tabla_precios .cont-tabla_precios {
-    height: 90%;
-    overflow: hidden;
+    height: 80%;
     width: 80%;
     display: grid;
-    grid-template-rows: repeat(2, 1fr); }
+    grid-template-rows: 130px 1frpx;
+    align-items: center;
+    background: blue; }
     .tabla_precios .cont-tabla_precios h1 {
       display: flex;
       justify-content: center;
@@ -264,7 +265,53 @@ nav ul li:nth-child(1):hover .submenu-inicio {
       text-align: center;
       margin-bottom: 10px; }
     .tabla_precios .cont-tabla_precios .promociones {
-      background: red; }
+      background: red;
+      display: grid;
+      grid-template-columns: repeat(4, 25%); }
+      .tabla_precios .cont-tabla_precios .promociones .tabla-1 {
+        text-align: center;
+        background: blueviolet;
+        margin-top: 25px; }
+        .tabla_precios .cont-tabla_precios .promociones .tabla-1 .caja_precio {
+          border: 1px solid #5c6552;
+          background: #30353c;
+          color: #fff; }
+          .tabla_precios .cont-tabla_precios .promociones .tabla-1 .caja_precio .icono_precio {
+            color: #85c34a;
+            padding-top: 20px;
+            font-size: 3em;
+            padding-bottom: 10px; }
+          .tabla_precios .cont-tabla_precios .promociones .tabla-1 .caja_precio .precio {
+            color: #85c34a;
+            font-size: 50px;
+            font-weight: bold; }
+            .tabla_precios .cont-tabla_precios .promociones .tabla-1 .caja_precio .precio .dolar {
+              font-size: 20px;
+              vertical-align: super; }
+            .tabla_precios .cont-tabla_precios .promociones .tabla-1 .caja_precio .precio .mes {
+              font-size: 10px;
+              color: #999;
+              vertical-align: text-bottom; }
+          .tabla_precios .cont-tabla_precios .promociones .tabla-1 .caja_precio .lista_precios {
+            list-style: none;
+            padding: 20px 0;
+            color: #81867D;
+            padding-bottom: 50px; }
+          .tabla_precios .cont-tabla_precios .promociones .tabla-1 .caja_precio .boton-contratar {
+            margin-bottom: 25px; }
+            .tabla_precios .cont-tabla_precios .promociones .tabla-1 .caja_precio .boton-contratar .contratar-a {
+              background: #85c34a;
+              text-decoration: none;
+              color: #fff;
+              text-transform: uppercase;
+              font-weight: bold;
+              padding: 10px 70px;
+              letter-spacing: 1px;
+              width: 90%; }
+              .tabla_precios .cont-tabla_precios .promociones .tabla-1 .caja_precio .boton-contratar .contratar-a:hover {
+                background: #81867D; }
+      .tabla_precios .cont-tabla_precios .promociones .tabla-2 {
+        margin-top: 25px; }
 
 * {
   margin: 0;
