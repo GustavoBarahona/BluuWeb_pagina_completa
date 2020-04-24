@@ -7,6 +7,7 @@
 @import 'redes-sociales';
 @import 'tabla_de_precios';
 @import 'sliderSSS';
+@import 'formulario-mapa';
 
 * {
     margin: 0;
@@ -16,7 +17,7 @@
 }
 
 body{
-    height: 3000px;
+    min-height: 100vp;
 }
 
 header {

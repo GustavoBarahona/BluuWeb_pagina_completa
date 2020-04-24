@@ -1,0 +1,15 @@
+@mixin gus-boton-form {
+    background: #85c34a;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 70px;
+    letter-spacing: 1px;
+    width: 525px;
+    margin: 10px;
+
+    &:hover {
+        background: #81867D;
+    }
+}
